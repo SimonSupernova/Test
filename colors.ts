@@ -161,6 +161,7 @@ const semanticOpportunityOpportunityColor = "#5a52b4";
 const semanticOpportunityOpportunityIcon = "#5a52b4";
 const semanticOpportunityOpportunityBorder = "#9e95ec";
 const semanticOpportunityOpportunityBackground = "#eaeaf8";
+const vanjaOpportunity = semanticOpportunityOpportunityIcon;
 
 export const Colors = {
   /** Our button call to action */
@@ -331,4 +332,5 @@ export const Colors = {
     semanticOpportunityOpportunityIcon,
     semanticOpportunityOpportunityBorder,
     semanticOpportunityOpportunityBackground,
+    vanjaOpportunity,
 }

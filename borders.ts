@@ -2,11 +2,11 @@
 import { Colors } from './colors';
 import { Measures } from './measures';
 const zavaBlue = {
-           color: "#306ca5",
+           color: "#245685",
            width: {
-                   measure: 5,
+                   measure: 2,
                    unit: "Pixels",
-                   css: "5px"
+                   css: "2px"
                   },
            position: "Inside",
          };
@@ -29,7 +29,7 @@ const newBorder = {
            position: "Inside",
          };
 const demoBlue = {
-           color: Colors.paletteBlueBlue200,
+           color: "#cde3f7",
            width: {
                    measure: 2,
                    unit: "Pixels",
