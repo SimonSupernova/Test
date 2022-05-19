@@ -22,5 +22,21 @@ class AppBorders {
     width: 2,
   ));
 
+  static const test = Border.fromBorderSide(BorderSide(
+    color: Color(0xffccf0c2),
+    width: 2,
+  ));
+
+  static const tesr = Border.fromBorderSide(BorderSide(
+    color: Color(0xff8fda75),
+    width: 2,
+  ));
+
+  /// Test
+  static const merkle = Border.fromBorderSide(BorderSide(
+    color: Color(0xff245685),
+    width: 1,
+  ));
+
   AppBorders._();
 }

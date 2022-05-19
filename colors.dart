@@ -6,6 +6,8 @@ class AppColors {
   
   static const testCta = Color(0xff3a79bd); 
   
+  static const vanjaOpportunity = Color(0xff5a52b4); 
+  
   static const paletteGreenGreen1100 = Color(0xff0e2a21); 
   
   static const paletteGreenGreen1000 = Color(0xff1c4130); 
