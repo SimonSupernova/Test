@@ -67,10 +67,8 @@ const paletteTealTeal800 = "#357a7b";
 const paletteTealTeal700 = "#42948e";
 const paletteTealTeal600 = "#4aa69c";
 const paletteTealTeal500 = "#58c1b2";
-const paletteTealTeal400 = "#6addc6";
 const paletteTealTeal300 = "#97e7d5";
 const paletteTealTeal200 = "#c0f0e6";
-const paletteTealTeal100 = "#d5f6ef";
 const paletteTealTeal0 = "#e9f8f5";
 const palettePinkPink1100 = "#281821";
 const palettePinkPink1000 = "#4f1930";
@@ -132,11 +130,11 @@ const paletteMagentaMagenta300 = "#e3b1ee";
 const paletteMagentaMagenta200 = "#ecc7f4";
 const paletteMagentaMagenta100 = "#f5e4fa";
 const paletteMagentaMagenta0 = "#fcf0fe";
-const semanticPrimaryCtaPrimaryActivebackground = "#245685";
-const semanticPrimaryCtaPrimaryHoverbackground = "#306ca5";
-const semanticPrimaryCtaPrimaryHovercolor = "#ffffff";
-const semanticPrimaryCtaPrimaryBackground = "#3a79bd";
-const semanticPrimaryCtaPrimaryColor = "#ffffff";
+const semanticPrimaryPrimaryActivebackground = "#453e96";
+const semanticPrimaryPrimaryHoverbackground = "#5a52b4";
+const semanticPrimaryPrimaryHovercolor = "#ffffff";
+const semanticPrimaryPrimaryBackground = "#6b62cc";
+const semanticPrimaryPrimaryColor = "#ffffff";
 const semanticTextTextInverse = "#ffffff";
 const semanticTextTextSubtext = "#545e5f";
 const semanticTextTextHeadline = "#293333";
@@ -157,11 +155,19 @@ const semanticInfoInfoColor = "#3a79bd";
 const semanticInfoInfoIcon = "#306ca5";
 const semanticInfoInfoBorder = "#6aacef";
 const semanticInfoInfoBackground = "#e0f1fe";
-const semanticOpportunityOpportunityColor = "#5a52b4";
-const semanticOpportunityOpportunityIcon = "#5a52b4";
-const semanticOpportunityOpportunityBorder = "#9e95ec";
-const semanticOpportunityOpportunityBackground = "#eaeaf8";
-const vanjaOpportunity = semanticOpportunityOpportunityIcon;
+const semanticOpportunityOpportunityColor = "#357a7b";
+const semanticOpportunityOpportunityIcon = "#357a7b";
+const semanticOpportunityOpportunityBorder = "#6addc6";
+const semanticOpportunityOpportunityBackground = "#d5f6ef";
+const semanticPrimaryPrimaryInnactivebackground = "#d8d8f6";
+const semanticPrimaryPrimaryBorder = "#6b62cc";
+const semanticPrimaryHoverinnactivebackground = "#c0c2f3";
+const semanticSaleSale70Background = "#f6be41";
+const semanticSaleSale50Background = "#de638b";
+const semanticSaleSale30Background = "#58c1b2";
+const semanticSaleSaleColor = "#ffffff";
+const paletteTealTeal400 = "#6addc6";
+const paletteTealTeal100 = "#d5f6ef";
 
 export const Colors = {
   /** Our button call to action */
@@ -237,10 +243,8 @@ export const Colors = {
     paletteTealTeal700,
     paletteTealTeal600,
     paletteTealTeal500,
-    paletteTealTeal400,
     paletteTealTeal300,
     paletteTealTeal200,
-    paletteTealTeal100,
     paletteTealTeal0,
     palettePinkPink1100,
     palettePinkPink1000,
@@ -303,11 +307,11 @@ export const Colors = {
     paletteMagentaMagenta200,
     paletteMagentaMagenta100,
     paletteMagentaMagenta0,
-    semanticPrimaryCtaPrimaryActivebackground,
-    semanticPrimaryCtaPrimaryHoverbackground,
-    semanticPrimaryCtaPrimaryHovercolor,
-    semanticPrimaryCtaPrimaryBackground,
-    semanticPrimaryCtaPrimaryColor,
+    semanticPrimaryPrimaryActivebackground,
+    semanticPrimaryPrimaryHoverbackground,
+    semanticPrimaryPrimaryHovercolor,
+    semanticPrimaryPrimaryBackground,
+    semanticPrimaryPrimaryColor,
     semanticTextTextInverse,
     semanticTextTextSubtext,
     semanticTextTextHeadline,
@@ -332,5 +336,13 @@ export const Colors = {
     semanticOpportunityOpportunityIcon,
     semanticOpportunityOpportunityBorder,
     semanticOpportunityOpportunityBackground,
-    vanjaOpportunity,
+    semanticPrimaryPrimaryInnactivebackground,
+    semanticPrimaryPrimaryBorder,
+    semanticPrimaryHoverinnactivebackground,
+    semanticSaleSale70Background,
+    semanticSaleSale50Background,
+    semanticSaleSale30Background,
+    semanticSaleSaleColor,
+    paletteTealTeal400,
+    paletteTealTeal100,
 }
