@@ -64,6 +64,15 @@ const merkle = {
                   },
            position: "Inside",
          };
+const avast = {
+           color: "#b67676",
+           width: {
+                   measure: 2,
+                   unit: "Pixels",
+                   css: "2px"
+                  },
+           position: "Inside",
+         };
 
 
 export const Borders = {
@@ -76,4 +85,6 @@ export const Borders = {
       tesr,
   /** Test */
       merkle,
+  /** Avast test */
+      avast,
 }
