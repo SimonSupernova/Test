@@ -7,7 +7,7 @@ class AppBorders {
   ));
 
   static const cta = Border.fromBorderSide(BorderSide(
-    color: Color(0xff245685),
+    color: Color(0xff2d6944),
     width: 2,
   ));
 
@@ -34,8 +34,19 @@ class AppBorders {
 
   /// Test
   static const merkle = Border.fromBorderSide(BorderSide(
-    color: Color(0xff245685),
+    color: Color(0xff2d6944),
     width: 1,
+  ));
+
+  /// Avast test
+  static const avast = Border.fromBorderSide(BorderSide(
+    color: Color(0xffb67676),
+    width: 2,
+  ));
+
+  static const test = Border.fromBorderSide(BorderSide(
+    color: Color(0xff2d6944),
+    width: 2,
   ));
 
   AppBorders._();

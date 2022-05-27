@@ -2,11 +2,9 @@ import 'package:flutter/material.dart';
 
 class AppColors {
   /// Our button call to action
-  static const buttonCta = Color(0xff245685); 
+  static const buttonCta = Color(0xff2d6944); 
   
   static const testCta = Color(0xff3a79bd); 
-  
-  static const vanjaOpportunity = Color(0xff5a52b4); 
   
   static const paletteGreenGreen1100 = Color(0xff0e2a21); 
   
@@ -276,15 +274,21 @@ class AppColors {
   
   static const paletteMagentaMagenta0 = Color(0xfffcf0fe); 
   
-  static const semanticPrimaryCtaPrimaryActiveBackground = Color(0xff245685); 
+  static const semanticPrimaryPrimaryActiveBackground = Color(0xff453e96); 
   
-  static const semanticPrimaryCtaPrimaryHoverBackground = Color(0xff306ca5); 
+  static const semanticPrimaryPrimaryHoverBackground = Color(0xff5a52b4); 
   
-  static const semanticPrimaryCtaPrimaryHoverColor = Color(0xffffffff); 
+  static const semanticPrimaryPrimaryHoverColor = Color(0xffffffff); 
   
-  static const semanticPrimaryCtaPrimaryBackground = Color(0xff3a79bd); 
+  static const semanticPrimaryPrimaryBackground = Color(0xff6b62cc); 
   
-  static const semanticPrimaryCtaPrimaryColor = Color(0xffffffff); 
+  static const semanticPrimaryPrimaryColor = Color(0xffffffff); 
+  
+  static const semanticPrimaryPrimaryInnactiveBackground = Color(0xffd8d8f6); 
+  
+  static const semanticPrimaryPrimaryBorder = Color(0xff6b62cc); 
+  
+  static const semanticPrimaryHoverInnactiveBackground = Color(0xffc0c2f3); 
   
   static const semanticTextTextInverse = Color(0xffffffff); 
   
@@ -326,13 +330,21 @@ class AppColors {
   
   static const semanticInfoInfoBackground = Color(0xffe0f1fe); 
   
-  static const semanticOpportunityOpportunityColor = Color(0xff5a52b4); 
+  static const semanticOpportunityOpportunityColor = Color(0xff357a7b); 
   
-  static const semanticOpportunityOpportunityIcon = Color(0xff5a52b4); 
+  static const semanticOpportunityOpportunityIcon = Color(0xff357a7b); 
   
-  static const semanticOpportunityOpportunityBorder = Color(0xff9e95ec); 
+  static const semanticOpportunityOpportunityBorder = Color(0xff6addc6); 
   
-  static const semanticOpportunityOpportunityBackground = Color(0xffeaeaf8); 
+  static const semanticOpportunityOpportunityBackground = Color(0xffd5f6ef); 
+  
+  static const semanticSaleSale70Background = Color(0xfff6be41); 
+  
+  static const semanticSaleSale50Background = Color(0xffde638b); 
+  
+  static const semanticSaleSale30Background = Color(0xff58c1b2); 
+  
+  static const semanticSaleSaleColor = Color(0xffffffff); 
   
   AppColors._();
 }
