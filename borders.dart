@@ -7,7 +7,7 @@ class AppBorders {
   ));
 
   static const cta = Border.fromBorderSide(BorderSide(
-    color: Color(0xff2d6944),
+    color: Color(0xff6b62cc),
     width: 2,
   ));
 
@@ -34,7 +34,7 @@ class AppBorders {
 
   /// Test
   static const merkle = Border.fromBorderSide(BorderSide(
-    color: Color(0xff2d6944),
+    color: Color(0xff6b62cc),
     width: 1,
   ));
 
@@ -45,7 +45,7 @@ class AppBorders {
   ));
 
   static const test = Border.fromBorderSide(BorderSide(
-    color: Color(0xff2d6944),
+    color: Color(0xff6b62cc),
     width: 2,
   ));
 
