@@ -1,0 +1,9 @@
+
+:root {
+    --borderBorder: 1px solid var(--colorSemanticPrimaryPrimaryBackground);    
+    --borderBorder2: 1px solid var(--colorSemanticPrimaryPrimaryBackground);    
+    --borderKlm: var(--measureGenericTiny) solid var(--colorPaletteBlueBlue800);    
+    --borderKlm3: 1px solid var(--colorPaletteBlueBlue200);    
+    --borderBorderX: var(--measureGenericTiny) solid var(--colorSemanticPrimaryPrimaryBackground);    
+    --borderBorder: 2px solid var(--colorPaletteGreenGreen800);    
+}
