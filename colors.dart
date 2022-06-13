@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  /// Our button call to action
-  static const buttonCta = Color(0xff6b62cc); 
-  
-  static const testCta = Color(0xff3a79bd); 
-  
   static const paletteGreenGreen1100 = Color(0xff0e2a21); 
   
   static const paletteGreenGreen1000 = Color(0xff1c4130); 
