@@ -24,7 +24,7 @@ const klm = {
            width: Measures.genericTiny,
            position: "Inside",
          };
-const klm3 = {
+const buttonsKlm3 = {
            color: Colors.paletteBlueBlue200,
            width: {
                    measure: 1,
@@ -39,5 +39,5 @@ export const Borders = {
       border,
       border2,
       klm,
-      klm3,
+      buttonsKlm3,
 }
