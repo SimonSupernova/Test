@@ -1,5 +1,3 @@
-const buttonCta = "#245685";
-const testCta = "#3a79bd";
 const paletteGreenGreen1100 = "#0e2a21";
 const paletteGreenGreen1000 = "#1c4130";
 const paletteGreenGreen900 = "#2d6944";
@@ -170,9 +168,6 @@ const paletteTealTeal400 = "#6addc6";
 const paletteTealTeal100 = "#d5f6ef";
 
 export const Colors = {
-  /** Our button call to action */
-    buttonCta,
-    testCta,
     paletteGreenGreen1100,
     paletteGreenGreen1000,
     paletteGreenGreen900,
