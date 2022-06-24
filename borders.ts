@@ -47,6 +47,16 @@ const begumBlueBorderToken = {
                   },
            position: "Inside",
          };
+const testBorder = {
+           color: Colors.paletteGreenGreen100,
+           width: Measures.genericTiny,
+           position: "Inside",
+         };
+const borderX = {
+           color: Colors.semanticPrimaryPrimaryActivebackground,
+           width: Measures.genericTiny,
+           position: "Inside",
+         };
 
 
 export const Borders = {
@@ -58,4 +68,6 @@ export const Borders = {
       dhTest,
   /** A test for our Turkish colleague */
       begumBlueBorderToken,
+      testBorder,
+      borderX,
 }
