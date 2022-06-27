@@ -43,6 +43,11 @@ class AppBorders {
     width: 2,
   ));
 
+  static const carvana = Border.fromBorderSide(BorderSide(
+    color: Color(0xff3c884d),
+    width: 2,
+  ));
+
   static const buttonsKlm3 = Border.fromBorderSide(BorderSide(
     color: Color(0xffcde3f7),
     width: 1,
