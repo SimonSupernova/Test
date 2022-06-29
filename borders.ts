@@ -57,6 +57,29 @@ const borderX = {
            width: Measures.genericTiny,
            position: "Inside",
          };
+const test = {
+           color: Colors.paletteGreenGreen1000,
+           width: {
+                   measure: 2,
+                   unit: "Pixels",
+                   css: "2px"
+                  },
+           position: "Inside",
+         };
+const carvana = {
+           color: Colors.paletteGreenGreen800,
+           width: Measures.genericTiny,
+           position: "Inside",
+         };
+const test = {
+           color: Colors.semanticPrimaryPrimaryHoverbackground,
+           width: {
+                   measure: 2,
+                   unit: "Pixels",
+                   css: "2px"
+                  },
+           position: "Inside",
+         };
 
 
 export const Borders = {
@@ -70,4 +93,8 @@ export const Borders = {
       begumBlueBorderToken,
       testBorder,
       borderX,
+      test,
+      carvana,
+  /** Test */
+      test,
 }
