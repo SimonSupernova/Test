@@ -80,6 +80,11 @@ const test = {
                   },
            position: "Inside",
          };
+const iterateux = {
+           color: Colors.paletteGreenGreen400,
+           width: Measures.genericTiny,
+           position: "Inside",
+         };
 
 
 export const Borders = {
@@ -97,4 +102,5 @@ export const Borders = {
       carvana,
   /** Test */
       test,
+      iterateux,
 }
