@@ -65,6 +65,7 @@ const paletteTealTeal800 = "#357a7b";
 const paletteTealTeal700 = "#42948e";
 const paletteTealTeal600 = "#4aa69c";
 const paletteTealTeal500 = "#58c1b2";
+const paletteTealTeal400 = "#6addc6";
 const paletteTealTeal300 = "#97e7d5";
 const paletteTealTeal200 = "#c0f0e6";
 const paletteTealTeal0 = "#e9f8f5";
@@ -109,7 +110,6 @@ const paletteYellowYellow1000 = "#4e2c0b";
 const paletteYellowYellow900 = "#8b4f1f";
 const paletteYellowYellow800 = "#b0772a";
 const paletteYellowYellow700 = "#d49b35";
-const paletteYellowYellow600 = "#f6be41";
 const paletteYellowYellow500 = "#f8ce4c";
 const paletteYellowYellow400 = "#fad961";
 const paletteYellowYellow300 = "#fbe17f";
@@ -128,11 +128,11 @@ const paletteMagentaMagenta300 = "#e3b1ee";
 const paletteMagentaMagenta200 = "#ecc7f4";
 const paletteMagentaMagenta100 = "#f5e4fa";
 const paletteMagentaMagenta0 = "#fcf0fe";
-const semanticPrimaryPrimaryActivebackground = "#453e96";
-const semanticPrimaryPrimaryHoverbackground = "#5a52b4";
-const semanticPrimaryPrimaryHovercolor = "#ffffff";
-const semanticPrimaryPrimaryBackground = "#6b62cc";
-const semanticPrimaryPrimaryColor = "#ffffff";
+const semanticPrimaryPrimaryActivebackground = "#58c1b2";
+const semanticPrimaryPrimaryHoverbackground = "#6addc6";
+const semanticPrimaryPrimaryHovercolor = "#1b3e3e";
+const semanticPrimaryPrimaryBackground = "#97e7d5";
+const semanticPrimaryPrimaryColor = "#2a6461";
 const semanticTextTextInverse = "#ffffff";
 const semanticTextTextSubtext = "#545e5f";
 const semanticTextTextHeadline = "#293333";
@@ -149,23 +149,21 @@ const semanticSuccessSuccessColor = "#2d6944";
 const semanticSuccessSuccessIcon = "#3c884d";
 const semanticSuccessSuccessBorder = "#8fda75";
 const semanticSuccessSuccessBackground = "#ddf3d9";
-const semanticInfoInfoColor = "#3a79bd";
-const semanticInfoInfoIcon = "#306ca5";
-const semanticInfoInfoBorder = "#6aacef";
-const semanticInfoInfoBackground = "#e0f1fe";
-const semanticOpportunityOpportunityColor = "#357a7b";
-const semanticOpportunityOpportunityIcon = "#357a7b";
-const semanticOpportunityOpportunityBorder = "#6addc6";
-const semanticOpportunityOpportunityBackground = "#d5f6ef";
-const semanticPrimaryPrimaryInnactivebackground = "#d8d8f6";
-const semanticPrimaryPrimaryBorder = "#6b62cc";
-const semanticPrimaryHoverinnactivebackground = "#c0c2f3";
-const semanticSaleSale70Background = "#f6be41";
-const semanticSaleSale50Background = "#de638b";
-const semanticSaleSale30Background = "#58c1b2";
-const semanticSaleSaleColor = "#ffffff";
-const paletteTealTeal400 = "#6addc6";
-const paletteTealTeal100 = "#d5f6ef";
+const semanticInfoInfoColor = "#6b62cc";
+const semanticInfoInfoIcon = "#5a52b4";
+const semanticInfoInfoBorder = "#9e95ec";
+const semanticInfoInfoBackground = "#eaeaf8";
+const semanticOpportunityOpportunityColor = "#a43b5b";
+const semanticOpportunityOpportunityIcon = "#a43b5b";
+const semanticOpportunityOpportunityBorder = "#ee7fad";
+const semanticOpportunityOpportunityBackground = "#f7dcea";
+const semanticPrimaryCtaPrimaryActivebackground = "#dfe1e1";
+const semanticPrimaryPrimaryBorder = "#2a6461";
+const semanticPrimaryHoverinnactivebackground = "#c9cccc";
+const specialRatingRatingOn = "#f6be41";
+const specialRatingRatingHoveron = "#d49b35";
+const specialRatingRatingOff = "#dfe1e1";
+const specialRatingRatingHoveroff = "#f6be41";
 
 export const Colors = {
     paletteGreenGreen1100,
@@ -238,6 +236,7 @@ export const Colors = {
     paletteTealTeal700,
     paletteTealTeal600,
     paletteTealTeal500,
+    paletteTealTeal400,
     paletteTealTeal300,
     paletteTealTeal200,
     paletteTealTeal0,
@@ -283,7 +282,6 @@ export const Colors = {
     paletteYellowYellow900,
     paletteYellowYellow800,
     paletteYellowYellow700,
-    paletteYellowYellow600,
     paletteYellowYellow500,
     paletteYellowYellow400,
     paletteYellowYellow300,
@@ -331,13 +329,11 @@ export const Colors = {
     semanticOpportunityOpportunityIcon,
     semanticOpportunityOpportunityBorder,
     semanticOpportunityOpportunityBackground,
-    semanticPrimaryPrimaryInnactivebackground,
+    semanticPrimaryCtaPrimaryActivebackground,
     semanticPrimaryPrimaryBorder,
     semanticPrimaryHoverinnactivebackground,
-    semanticSaleSale70Background,
-    semanticSaleSale50Background,
-    semanticSaleSale30Background,
-    semanticSaleSaleColor,
-    paletteTealTeal400,
-    paletteTealTeal100,
+    specialRatingRatingOn,
+    specialRatingRatingHoveron,
+    specialRatingRatingOff,
+    specialRatingRatingHoveroff,
 }
