@@ -48,6 +48,22 @@ class AppBorders {
     width: 2,
   ));
 
+  /// Test
+  static const test = Border.fromBorderSide(BorderSide(
+    color: Color(0xff5a52b4),
+    width: 2,
+  ));
+
+  static const iterateUx = Border.fromBorderSide(BorderSide(
+    color: Color(0xff8fda75),
+    width: 2,
+  ));
+
+  static const 2 = Border.fromBorderSide(BorderSide(
+    color: Color(0xff2d6944),
+    width: 2,
+  ));
+
   static const buttonsKlm3 = Border.fromBorderSide(BorderSide(
     color: Color(0xffcde3f7),
     width: 1,
