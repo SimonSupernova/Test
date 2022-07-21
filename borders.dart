@@ -64,6 +64,11 @@ class AppBorders {
     width: 2,
   ));
 
+  static const borderNew = Border.fromBorderSide(BorderSide(
+    color: Color(0xff3a79bd),
+    width: 12,
+  ));
+
   static const buttonsKlm3 = Border.fromBorderSide(BorderSide(
     color: Color(0xffcde3f7),
     width: 1,
