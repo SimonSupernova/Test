@@ -90,6 +90,11 @@ const _2 = {
            width: Measures.genericTiny,
            position: "Inside",
          };
+const borderNew = {
+           color: Colors.paletteBlueBlue700,
+           width: Measures.genericMedium,
+           position: "Inside",
+         };
 
 
 export const Borders = {
@@ -109,4 +114,5 @@ export const Borders = {
       test,
       iterateux,
       _2,
+      borderNew,
 }
