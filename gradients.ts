@@ -2,7 +2,7 @@
 import { Colors } from './colors';
 import { Measures } from './measures';
 
-const test = {
+const rainbow = {
            type: 'Linear',
             direction: {
              from: {x: 0.5, y: 0 },
@@ -10,11 +10,15 @@ const test = {
            },
             stops: [
              {
-               color: "#00000000",
+               color: "#ab0dcae7",
                position: 0
              },
              {
-               color: "#000000",
+               color: "#2ff3fff1",
+               position: 0.4538445723684211
+             },
+             {
+               color: "#ec2a2a",
                position: 1
              },
            ],
@@ -22,5 +26,6 @@ const test = {
 
 
 export const Gradients = {
-      test,
+  /** Rainbow gradient */
+      rainbow,
 }

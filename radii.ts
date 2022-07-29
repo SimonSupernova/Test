@@ -2,13 +2,15 @@
 import { Measures } from './measures';
 const radii = {
            radius: {
-                      measure: 0,
+                      measure: 2,
                       unit: "Pixels",
-                      css: "0px"
+                      css: "2px"
                      },
          };
+const radiiReferenced = radii;
 
 
 export const Raddii = {
       radii,
+      radiiReferenced,
 }
