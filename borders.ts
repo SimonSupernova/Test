@@ -15,9 +15,15 @@ const borderNew = {
            width: Measures.genericMedium,
            position: "Inside",
          };
+const token = {
+           color: Colors.paletteBlueBlue700,
+           width: Measures.genericSmall,
+           position: "Inside",
+         };
 
 
 export const Borders = {
       border,
       borderNew,
+      token,
 }

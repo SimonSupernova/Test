@@ -33,6 +33,11 @@ const icon = {
           unit: "Pixels",
           css: "44px"
          };
+const extraLarge = {
+          measure: 100,
+          unit: "Pixels",
+          css: "100px"
+         };
 
 export const Measures = {
       sizingElementWidth,
@@ -42,4 +47,5 @@ export const Measures = {
       sizingElementHeight,
       genericLarge,
       icon,
+      extraLarge,
 }
