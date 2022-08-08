@@ -1,6 +1,8 @@
 class AppDimensions {
   static const icon = 44;
 
+  static const extraLarge = 100;
+
   static const genericTiny = 2;
 
   static const genericSmall = 8;

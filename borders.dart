@@ -11,5 +11,10 @@ class AppBorders {
     width: 12,
   ));
 
+  static const token = Border.fromBorderSide(BorderSide(
+    color: Color(0xff3a79bd),
+    width: 8,
+  ));
+
   AppBorders._();
 }
