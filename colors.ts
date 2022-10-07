@@ -336,6 +336,7 @@ export const Colors = {
     semanticPrimaryHoverinnactivebackground,
     semanticSaleSale70Background,
     semanticSaleSale50Background,
+  /** Some test description */
     semanticSaleSale30Background,
     semanticSaleSaleColor,
     paletteTealTeal400,
