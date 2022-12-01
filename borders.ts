@@ -56,6 +56,15 @@ const test = {
                   },
            position: "Inside",
          };
+const token7 = {
+           color: "#000000",
+           width: {
+                   measure: 1,
+                   unit: "Pixels",
+                   css: "1px"
+                  },
+           position: "Inside",
+         };
 
 
 export const Borders = {
@@ -67,4 +76,5 @@ export const Borders = {
       borderXx,
       test,
       test,
+      token7,
 }
