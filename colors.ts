@@ -166,7 +166,6 @@ const semanticSaleSale30Background = "#58c1b2";
 const semanticSaleSaleColor = "#ffffff";
 const paletteTealTeal400 = "#6addc6";
 const paletteTealTeal100 = "#d5f6ef";
-const _169Token = "#ffffff";
 
 export const Colors = {
     paletteGreenGreen1100,
@@ -342,5 +341,4 @@ export const Colors = {
     semanticSaleSaleColor,
     paletteTealTeal400,
     paletteTealTeal100,
-    _169Token,
 }
