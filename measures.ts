@@ -38,6 +38,11 @@ const extraLarge = {
           unit: "Pixels",
           css: "100px"
          };
+const token9 = {
+          measure: 0,
+          unit: "Pixels",
+          css: "0px"
+         };
 
 export const Measures = {
       sizingElementWidth,
@@ -48,4 +53,5 @@ export const Measures = {
       genericLarge,
       icon,
       extraLarge,
+      token9,
 }
