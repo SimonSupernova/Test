@@ -1,9 +1,9 @@
 
 import { Measures } from './measures';
 const h1 = {
-           fontFamily: "Blatant",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 700,
+           fontWeight: 400,
            fontSize: {
                       measure: 57,
                       unit: "Pixels",
@@ -26,9 +26,9 @@ const h1 = {
                        },
          };
 const h2 = {
-           fontFamily: "Blatant",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 700,
+           fontWeight: 400,
            fontSize: {
                       measure: 43,
                       unit: "Pixels",
@@ -51,9 +51,9 @@ const h2 = {
                        },
          };
 const h3 = {
-           fontFamily: "Blatant",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 700,
+           fontWeight: 400,
            fontSize: {
                       measure: 32,
                       unit: "Pixels",
@@ -76,9 +76,9 @@ const h3 = {
                        },
          };
 const h4 = {
-           fontFamily: "Blatant",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 700,
+           fontWeight: 400,
            fontSize: {
                       measure: 24,
                       unit: "Pixels",
@@ -101,9 +101,9 @@ const h4 = {
                        },
          };
 const h5 = {
-           fontFamily: "Blatant",
+           fontFamily: "Inter",
            fontStyle: "normal",
-           fontWeight: 700,
+           fontWeight: 400,
            fontSize: {
                       measure: 21,
                       unit: "Pixels",
@@ -126,7 +126,7 @@ const h5 = {
                        },
          };
 const largeLead = {
-           fontFamily: "Blatant",
+           fontFamily: "Inter",
            fontStyle: "normal",
            fontWeight: 400,
            fontSize: {
@@ -151,7 +151,32 @@ const largeLead = {
                        },
          };
 const mediumLead = {
-           fontFamily: "Blatant",
+           fontFamily: "Inter",
+           fontStyle: "normal",
+           fontWeight: 400,
+           fontSize: {
+                      measure: 21,
+                      unit: "Pixels",
+                      css: "21px"
+                     },
+           lineHeight: {
+                          measure: 29,
+                          unit: "Pixels",
+                          css: "29px"
+                         },
+           letterSpacing: {
+                             measure: 0,
+                             unit: "Percent",
+                             css: "0%"
+                            },
+           textIndent: {
+                        measure: 0,
+                        unit: "Pixels",
+                        css: "0px"
+                       },
+         };
+const buttonLabel = {
+           fontFamily: "Inter",
            fontStyle: "normal",
            fontWeight: 400,
            fontSize: {
@@ -176,7 +201,7 @@ const mediumLead = {
                        },
          };
 const paragraph = {
-           fontFamily: "Blatant",
+           fontFamily: "Inter",
            fontStyle: "normal",
            fontWeight: 400,
            fontSize: {
@@ -201,7 +226,7 @@ const paragraph = {
                        },
          };
 const smallParagraph = {
-           fontFamily: "Blatant",
+           fontFamily: "Inter",
            fontStyle: "normal",
            fontWeight: 400,
            fontSize: {
@@ -226,7 +251,7 @@ const smallParagraph = {
                        },
          };
 const tinyParagraph = {
-           fontFamily: "Blatant",
+           fontFamily: "Inter",
            fontStyle: "normal",
            fontWeight: 400,
            fontSize: {
@@ -250,56 +275,6 @@ const tinyParagraph = {
                         css: "0px"
                        },
          };
-const buttonLabel = {
-           fontFamily: "Blatant",
-           fontStyle: "normal",
-           fontWeight: 400,
-           fontSize: {
-                      measure: 21,
-                      unit: "Pixels",
-                      css: "21px"
-                     },
-           lineHeight: {
-                          measure: 29,
-                          unit: "Pixels",
-                          css: "29px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
-         };
-const sale = {
-           fontFamily: "Blatant",
-           fontStyle: "normal",
-           fontWeight: 700,
-           fontSize: {
-                      measure: 24,
-                      unit: "Pixels",
-                      css: "24px"
-                     },
-           lineHeight: {
-                          measure: 32,
-                          unit: "Pixels",
-                          css: "32px"
-                         },
-           letterSpacing: {
-                             measure: 0,
-                             unit: "Percent",
-                             css: "0%"
-                            },
-           textIndent: {
-                        measure: 0,
-                        unit: "Pixels",
-                        css: "0px"
-                       },
-         };
 
 
 export const Typographies = {
@@ -310,9 +285,8 @@ export const Typographies = {
       h5,
       largeLead,
       mediumLead,
+      buttonLabel,
       paragraph,
       smallParagraph,
       tinyParagraph,
-      buttonLabel,
-      sale,
 }
