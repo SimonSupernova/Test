@@ -2,6 +2,25 @@
 import { Colors } from './colors';
 import { Measures } from './measures';
 const border = {
+           color: Colors.semanticPrimaryPrimaryBackground,
+           width: {
+                   measure: 1,
+                   unit: "Pixels",
+                   css: "1px"
+                  },
+           position: "Inside",
+         };
+const borderNew = {
+           color: Colors.paletteBlueBlue700,
+           width: Measures.genericMedium,
+           position: "Inside",
+         };
+const token = {
+           color: Colors.paletteBlueBlue700,
+           width: Measures.genericSmall,
+           position: "Inside",
+         };
+const borderXx = {
            color: Colors.paletteGreenGreen800,
            width: {
                    measure: 1,
@@ -10,8 +29,8 @@ const border = {
                   },
            position: "Inside",
          };
-const border2 = {
-           color: Colors.paletteBlueBlue1000,
+const borderXx = {
+           color: Colors.semanticPrimaryPrimaryActivebackground,
            width: {
                    measure: 1,
                    unit: "Pixels",
@@ -19,8 +38,26 @@ const border2 = {
                   },
            position: "Inside",
          };
-const border3 = {
-           color: Colors.semanticPrimaryPrimaryActivebackground,
+const test = {
+           color: "#000000",
+           width: {
+                   measure: 1,
+                   unit: "Pixels",
+                   css: "1px"
+                  },
+           position: "Inside",
+         };
+const test = {
+           color: "#000000",
+           width: {
+                   measure: 1,
+                   unit: "Pixels",
+                   css: "1px"
+                  },
+           position: "Inside",
+         };
+const token7 = {
+           color: "#000000",
            width: {
                    measure: 1,
                    unit: "Pixels",
@@ -32,6 +69,12 @@ const border3 = {
 
 export const Borders = {
       border,
-      border2,
-      border3,
+  /** Mixin (Figma + Supernova) */
+      borderNew,
+      token,
+      borderXx,
+      borderXx,
+      test,
+      test,
+      token7,
 }
